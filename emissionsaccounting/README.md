@@ -21,7 +21,7 @@ I list of all variables inthe flowchart plus some that might be emissionsrelated
 |p_macPolCO2luc|/core/input/p_macPolCO2luc.cs4r|No|co2 emissions from landuse change with strong mitigation in MAgPIE|
 |**cdr**||||
 |vm_emiCdr (DAC +EW)|core|[GtC]|total (negative) emissions from CDR technologies of each region that are calculated in the CDR module. Note that it includes all atmospheric CO2 entering the CCUS chain (i.e. CO2 stored (CDR) AND used (not CDR))|
-|v33_emi(te)| **MISSING** |||
+|v33_emi(te)| **MISSING** vm_emicdrtedetail|||
 |vm_ccs_cdr  |**MISSING** vm_Co2capture_cdr ||appears in prepare.R, might be vm_Co2capture_cdr now?|
 |**other**||||
 |pm_emiExog|core|No|exogenous emissions|
