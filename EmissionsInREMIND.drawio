@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.5">
   <diagram name="Page 2" id="0">
-    <mxGraphModel dx="2287" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3072" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="-1024" y="493.25" width="180.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="20" value="indCCS" style="graphMlID=n18;shape=mxgraph.flowchart.process;fillColor=#D2DEEEFF;strokeColor=#D2EEE5FF" parent="1" vertex="1">
-          <mxGeometry x="-1096.75" y="572" width="180.25" height="30" as="geometry" />
+          <mxGeometry x="-1204.25" y="585" width="180.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="21" value="vm_emiCdrAll" style="graphMlID=n19;shape=mxgraph.flowchart.process;fillColor=#D2DEEEFF" parent="1" vertex="1">
           <mxGeometry x="386.25" y="325.375" width="142" height="30" as="geometry" />
@@ -112,7 +112,7 @@
         <mxCell id="37" value="" style="graphMlID=e0;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75" parent="1" source="2" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-86" value="input to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="37">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-86" value="input to" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="37" vertex="1" connectable="0">
           <mxGeometry x="-0.211" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -120,7 +120,7 @@
         <mxCell id="38" value="" style="graphMlID=e1;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75;exitX=0.5;exitY=0.025806451612903236" parent="1" source="4" target="9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-80" value="sum over markets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="38">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-80" value="sum over markets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="38" vertex="1" connectable="0">
           <mxGeometry x="-0.1811" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -128,7 +128,7 @@
         <mxCell id="39" value="" style="graphMlID=e2;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="4" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-81" value="&lt;b&gt;energy related emi&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" vertex="1" connectable="0" parent="39">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-81" value="&lt;b&gt;energy related emi&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" parent="39" vertex="1" connectable="0">
           <mxGeometry x="0.3615" relative="1" as="geometry">
             <mxPoint x="-117" y="29" as="offset" />
           </mxGeometry>
@@ -136,7 +136,7 @@
         <mxCell id="40" value="" style="graphMlID=e3;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="5" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-83" value="&lt;b&gt;non-emi from MACC&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-83" value="&lt;b&gt;non-emi from MACC&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="40" vertex="1" connectable="0">
           <mxGeometry x="-0.0085" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -144,7 +144,7 @@
         <mxCell id="41" value="" style="graphMlID=e4;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75" parent="1" source="3" target="2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-87" value="sum over markets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="41">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-87" value="sum over markets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="41" vertex="1" connectable="0">
           <mxGeometry x="-0.2031" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -152,7 +152,7 @@
         <mxCell id="42" value="" style="graphMlID=e5;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="7" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-88" value="&lt;div&gt;exog emi&lt;/div&gt;&lt;div&gt;(assigned &#39;other&#39;)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="42">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-88" value="&lt;div&gt;exog emi&lt;/div&gt;&lt;div&gt;(assigned &#39;other&#39;)&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42" vertex="1" connectable="0">
           <mxGeometry x="0.1784" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -160,7 +160,7 @@
         <mxCell id="43" value="" style="graphMlID=e6;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="8" target="3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-89" value="non energy system CDR (assigned &quot;ETS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=15;" vertex="1" connectable="0" parent="43">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-89" value="non energy system CDR (assigned &quot;ETS)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=15;" parent="43" vertex="1" connectable="0">
           <mxGeometry x="0.168" relative="1" as="geometry">
             <mxPoint x="36" y="5" as="offset" />
           </mxGeometry>
@@ -168,7 +168,7 @@
         <mxCell id="44" value="" style="graphMlID=e7;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75" parent="1" source="5" target="10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-82" value="sum over sector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="44">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-82" value="sum over sector" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
           <mxGeometry x="0.4323" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -194,7 +194,7 @@
         <mxCell id="51" value="" style="graphMlID=e14;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="12" target="5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-84" value="net LUC emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="51">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-84" value="net LUC emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="51" vertex="1" connectable="0">
           <mxGeometry x="0.0579" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -216,7 +216,7 @@
         <mxCell id="54" value="" style="graphMlID=e17;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="16" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-77" value="fuel combustion related emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-22;" vertex="1" connectable="0" parent="54">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-77" value="fuel combustion related emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-22;" parent="54" vertex="1" connectable="0">
           <mxGeometry x="-0.4363" y="-2" relative="1" as="geometry">
             <mxPoint x="-9" y="-7" as="offset" />
           </mxGeometry>
@@ -230,7 +230,7 @@
         <mxCell id="57" value="" style="graphMlID=e20;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="17" target="21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-85" value="scaled: only CCS share" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="57">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-85" value="scaled: only CCS share" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="57" vertex="1" connectable="0">
           <mxGeometry x="0.0944" relative="1" as="geometry">
             <mxPoint y="10" as="offset" />
           </mxGeometry>
@@ -238,7 +238,7 @@
         <mxCell id="58" value="" style="graphMlID=e21;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="23" target="21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-90" value="neg LUC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="58">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-90" value="neg LUC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="58" vertex="1" connectable="0">
           <mxGeometry x="0.2702" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -246,7 +246,7 @@
         <mxCell id="59" value="" style="graphMlID=e22;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75" parent="1" source="16" target="24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-78" value="sum over market" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-78" value="sum over market" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="59" vertex="1" connectable="0">
           <mxGeometry x="-0.2548" y="1" relative="1" as="geometry">
             <mxPoint x="4" y="16" as="offset" />
           </mxGeometry>
@@ -254,7 +254,7 @@
         <mxCell id="60" value="" style="graphMlID=e23;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="25" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-76" value="fuel extraction emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" vertex="1" connectable="0" parent="60">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-76" value="fuel extraction emi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-15;" parent="60" vertex="1" connectable="0">
           <mxGeometry x="-0.1306" relative="1" as="geometry">
             <mxPoint x="-43" as="offset" />
           </mxGeometry>
@@ -262,7 +262,7 @@
         <mxCell id="61" value="" style="graphMlID=e24;endArrow=oval;rounded=0;strokeColor=#006610FF;endFill=1;endSize=3.75;startArrow=none;startFill=1;startSize=6" parent="1" source="26" target="4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-79" value="minus ind capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="61">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-79" value="minus ind capture" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="61" vertex="1" connectable="0">
           <mxGeometry x="0.0622" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -274,7 +274,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-74" value="captured CO2 immediately released" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=0;" vertex="1" connectable="0" parent="62">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-74" value="captured CO2 immediately released" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;rotation=0;" parent="62" vertex="1" connectable="0">
           <mxGeometry x="-0.0612" y="-1" relative="1" as="geometry">
             <mxPoint y="-17" as="offset" />
           </mxGeometry>
@@ -286,7 +286,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-75" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;CO2 released due to CCU&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-8.1;" vertex="1" connectable="0" parent="63">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-75" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;CO2 released due to CCU&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-8.1;" parent="63" vertex="1" connectable="0">
           <mxGeometry x="-0.2051" relative="1" as="geometry">
             <mxPoint x="-64" y="20" as="offset" />
           </mxGeometry>
@@ -322,7 +322,7 @@
         <mxCell id="72" value="" style="graphMlID=e35;endArrow=block;rounded=0;strokeColor=#663800FF;endFill=1;endSize=3.75" parent="1" source="8" target="21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_fNlC0QupFxDKhn81Lbz-91" value="scaled to CCS-share of DAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="72">
+        <mxCell id="_fNlC0QupFxDKhn81Lbz-91" value="scaled to CCS-share of DAC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="72" vertex="1" connectable="0">
           <mxGeometry x="-0.0224" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
