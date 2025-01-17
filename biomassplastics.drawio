@@ -24,7 +24,7 @@
         </mxCell>
         <mxCell id="eJy9KGGvvpxnjVIqztkZ-12" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;which processes?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;- FT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-Sabatier&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-methanolisation&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-breakthrough?&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WIyWlLk6GJQsqaUBKTNV-9" vertex="1" connectable="0">
           <mxGeometry x="-0.15" y="-1" relative="1" as="geometry">
-            <mxPoint x="9" y="-31" as="offset" />
+            <mxPoint x="9" y="39" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eJy9KGGvvpxnjVIqztkZ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="eJy9KGGvvpxnjVIqztkZ-1" edge="1">
@@ -78,7 +78,7 @@
         <mxCell id="eJy9KGGvvpxnjVIqztkZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.95;entryDx=0;entryDy=0;strokeColor=#FF0000;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eJy9KGGvvpxnjVIqztkZ-8" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eJy9KGGvvpxnjVIqztkZ-18" value="how does this work?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eJy9KGGvvpxnjVIqztkZ-9" vertex="1" connectable="0">
+        <mxCell id="eJy9KGGvvpxnjVIqztkZ-18" value="&lt;div&gt;how does this work?&lt;/div&gt;&lt;div&gt;detour via co2capture?&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eJy9KGGvvpxnjVIqztkZ-9" vertex="1" connectable="0">
           <mxGeometry x="-0.4737" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -171,7 +171,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eJy9KGGvvpxnjVIqztkZ-37" value="Fundamental Questions: &lt;br&gt;- what does the plasitcs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-15" y="993" width="150" height="40" as="geometry" />
+          <mxGeometry x="60" y="980" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
