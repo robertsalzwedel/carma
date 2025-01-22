@@ -187,6 +187,9 @@
             <mxPoint x="50" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CYeb9MCEzgAZB4m-Lx6s-55" value="&lt;div&gt;&lt;b&gt;biochpc&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;biomass combined heat and power&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="290" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
