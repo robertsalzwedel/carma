@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.6">
   <diagram name="Page-1" id="E1Meq_LMT7FNtELlFsRH">
-    <mxGraphModel dx="2901" dy="2275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="1765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="drSC2y-xerrCYag6_PCV-4" value="&lt;div&gt;&lt;b&gt;vm_emiTeDetail&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;energy related emissions&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;u&gt;contains for cco2:&lt;br&gt;&lt;/u&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;- fossil CC&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;- BECC&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="70" y="310" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CKLRmlJu09OBUXcZ-omR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="drSC2y-xerrCYag6_PCV-6" target="drSC2y-xerrCYag6_PCV-1">
+        <mxCell id="CKLRmlJu09OBUXcZ-omR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="drSC2y-xerrCYag6_PCV-6" target="drSC2y-xerrCYag6_PCV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="290" y="310" />
@@ -24,13 +24,13 @@
         <mxCell id="drSC2y-xerrCYag6_PCV-6" value="&lt;div&gt;&lt;b&gt;vm_co2capture_cdr&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- DACC&lt;/div&gt;&lt;div&gt;- OAE capture&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="220" y="320" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CKLRmlJu09OBUXcZ-omR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="drSC2y-xerrCYag6_PCV-8" target="drSC2y-xerrCYag6_PCV-1">
+        <mxCell id="CKLRmlJu09OBUXcZ-omR-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="drSC2y-xerrCYag6_PCV-8" target="drSC2y-xerrCYag6_PCV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="drSC2y-xerrCYag6_PCV-8" value="&lt;div&gt;&lt;b&gt;vm_emiIndCCS&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;industry process??? emissions&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="320" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="CKLRmlJu09OBUXcZ-omR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="drSC2y-xerrCYag6_PCV-10" target="drSC2y-xerrCYag6_PCV-1">
+        <mxCell id="CKLRmlJu09OBUXcZ-omR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="drSC2y-xerrCYag6_PCV-10" target="drSC2y-xerrCYag6_PCV-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="615" y="300" />
@@ -200,6 +200,9 @@
         </mxCell>
         <mxCell id="drSC2y-xerrCYag6_PCV-41" value="&lt;div&gt;&lt;b&gt;v_co2capturevalve&lt;/b&gt;&lt;/div&gt;&lt;div&gt;co2 vented to atmosphere&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="150" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0NjR7f3C7gT_2IM5YjhE-1" value="&lt;div&gt;gleichung aufschreiben?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;an der STelle wo emission faktor *fe_dem, &lt;br&gt;&lt;/div&gt;&lt;div&gt;klar machen, dass das die Stelle ist, wo emittiert wird&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="358" width="300" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
