@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="eDV8SX7Py_5U0qgdYviv">
-    <mxGraphModel dx="3695" dy="2661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2420" dy="1998" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -353,10 +353,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEI0yCXBp9q3wTznUn6e-19" value="Question: &lt;br&gt;&lt;div&gt;Why doesnt &lt;u&gt;biogas &lt;/u&gt;doesnt not produce seel, if&amp;nbsp; &lt;u&gt;biogasc &lt;/u&gt;does?&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it is negative, so maybe seel is input? &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="440" y="-350" width="360" height="70" as="geometry" />
+          <mxGeometry x="946" y="-350" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iEI0yCXBp9q3wTznUn6e-20" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 204, 0);&quot;&gt;Green Arrows are realized via pm_prodCouple&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="390" y="-122" width="280" height="30" as="geometry" />
+          <mxGeometry x="620" y="-150" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iEI0yCXBp9q3wTznUn6e-21" value="&lt;div&gt;&lt;b&gt;tdbiohos&lt;/b&gt;&lt;/div&gt;t&amp;amp;d for heating oil from biomass origin to stationary users " style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1036" y="1125" width="150" height="58" as="geometry" />
@@ -413,7 +413,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iEI0yCXBp9q3wTznUn6e-33" value="&lt;div&gt;Q: why isnt &lt;u&gt;seligbio &lt;/u&gt;mapped to electricity like h2?&lt;/div&gt;&lt;div&gt;either &lt;u&gt;se2se &lt;/u&gt;or &lt;u&gt;se2fe&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;&lt;br&gt;&lt;/u&gt; &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="410" y="-250" width="290" height="60" as="geometry" />
+          <mxGeometry x="916" y="-250" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CYeb9MCEzgAZB4m-Lx6s-15" value="&lt;div&gt;&lt;b&gt;bioh2c&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;biomass to hydrogen with capture &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="294" y="550" width="120" height="60" as="geometry" />
@@ -696,6 +696,51 @@
             <mxPoint x="780" y="270" as="sourcePoint" />
             <mxPoint x="755" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="209" y="-381" width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="tuqhchLpnmEP1XB31pi5-25">
+          <mxGeometry width="180" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-19" value="&lt;b&gt;pegas&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="tuqhchLpnmEP1XB31pi5-25">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-20" value="&lt;b&gt;fossils&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="tuqhchLpnmEP1XB31pi5-25">
+          <mxGeometry x="10" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-24" value="&lt;b&gt;pecoal&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="tuqhchLpnmEP1XB31pi5-25">
+          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.844;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tuqhchLpnmEP1XB31pi5-21" target="CYeb9MCEzgAZB4m-Lx6s-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="223" y="-255" as="sourcePoint" />
+            <mxPoint x="273" y="-305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-32" value="&lt;b&gt;peoil&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-458" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.894;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tuqhchLpnmEP1XB31pi5-32" target="CYeb9MCEzgAZB4m-Lx6s-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="-240" as="sourcePoint" />
+            <mxPoint x="740" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.961;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="tuqhchLpnmEP1XB31pi5-21" target="CYeb9MCEzgAZB4m-Lx6s-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="422" y="-240" as="sourcePoint" />
+            <mxPoint x="740" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.987;exitY=0.956;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;dashPattern=8 8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="tuqhchLpnmEP1XB31pi5-21" target="CYeb9MCEzgAZB4m-Lx6s-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="392" y="-163" as="sourcePoint" />
+            <mxPoint x="699" y="-11" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tuqhchLpnmEP1XB31pi5-36" value="&lt;div&gt;&lt;b&gt;Renewables&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="1">
+          <mxGeometry x="512" y="-340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
