@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.10">
   <diagram name="Page-1" id="eDV8SX7Py_5U0qgdYviv">
-    <mxGraphModel dx="2420" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4412" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,10 +14,10 @@
           <mxGeometry x="290" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CYeb9MCEzgAZB4m-Lx6s-4" value="&lt;div&gt;&lt;b&gt;seel&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;Electricity&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" parent="1" vertex="1">
-          <mxGeometry x="700" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="710" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CYeb9MCEzgAZB4m-Lx6s-5" value="&lt;b&gt;Heat&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" parent="1" vertex="1">
-          <mxGeometry x="700" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="CYeb9MCEzgAZB4m-Lx6s-5" value="&lt;b&gt;sehe&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CYeb9MCEzgAZB4m-Lx6s-6" value="&lt;div&gt;&lt;b&gt;biohp&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;biomass heating plant&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="230" width="120" height="60" as="geometry" />
@@ -506,6 +506,60 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="250" as="sourcePoint" />
             <mxPoint x="920" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-71" value="&lt;b&gt;feels&lt;/b&gt;&lt;div&gt;&lt;i&gt;final energy electricity stationary&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-72" value="&lt;div&gt;&lt;b&gt;feelt&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;final energy electricity transport&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-73" value="&lt;div&gt;&lt;b&gt;tdels&lt;/b&gt;&lt;/div&gt;transmission and distribution for electricity to stationary users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="230" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-74" value="&lt;div&gt;&lt;b&gt;tdelt&lt;/b&gt;&lt;/div&gt;transmission and distribution for electricity to transportation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="330" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="iEI0yCXBp9q3wTznUn6e-73" target="iEI0yCXBp9q3wTznUn6e-71" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="155" as="sourcePoint" />
+            <mxPoint x="1330" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="iEI0yCXBp9q3wTznUn6e-74" target="iEI0yCXBp9q3wTznUn6e-72" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="270" as="sourcePoint" />
+            <mxPoint x="1330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYeb9MCEzgAZB4m-Lx6s-4" target="iEI0yCXBp9q3wTznUn6e-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="500" as="sourcePoint" />
+            <mxPoint x="920" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYeb9MCEzgAZB4m-Lx6s-4" target="iEI0yCXBp9q3wTznUn6e-74">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="310" as="sourcePoint" />
+            <mxPoint x="1020" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-79" value="&lt;b&gt;fehes&lt;/b&gt;&lt;div&gt;&lt;i&gt;final energy heat stationary&lt;br&gt;&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=42;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-80" value="&lt;div&gt;&lt;b&gt;tdhes&lt;/b&gt;&lt;/div&gt;transmission and distribution for heat to stationary users" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="70" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-81" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="iEI0yCXBp9q3wTznUn6e-80" target="iEI0yCXBp9q3wTznUn6e-79" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="-5" as="sourcePoint" />
+            <mxPoint x="1330" y="-5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iEI0yCXBp9q3wTznUn6e-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CYeb9MCEzgAZB4m-Lx6s-5" target="iEI0yCXBp9q3wTznUn6e-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="870" y="320" as="sourcePoint" />
+            <mxPoint x="920" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
