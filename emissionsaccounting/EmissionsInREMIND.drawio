@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.10">
   <diagram name="Page 2" id="0">
-    <mxGraphModel dx="3990" dy="2081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4687" dy="2501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
           <mxGeometry x="-1330" y="224.44" width="190" height="85.62" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-161" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;vm_co2CCUshort&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;emission from short term CCU&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-1140" y="310.06" width="182.5" height="50" as="geometry" />
+          <mxGeometry x="-1171.25" y="824" width="182.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-164" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="-610" y="70.38" width="20" height="20" as="geometry" />
@@ -259,19 +259,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-177" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;vm_emiTeDetail&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;this is found in emiCdrAll summation&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-779.25" y="630" width="182.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-178" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.465;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-137" target="LM8mgtd1PfPeEbZ4qfP5-177" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-750" y="340" as="sourcePoint" />
-            <mxPoint x="-700" y="290" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-179" value="sum over markets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LM8mgtd1PfPeEbZ4qfP5-178" vertex="1" connectable="0">
-          <mxGeometry x="0.2341" y="5" relative="1" as="geometry">
-            <mxPoint x="-51" y="15" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="-502" y="810" width="182.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="c_pmkNfR0mzENY8hxApa-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="c_pmkNfR0mzENY8hxApa-101">
           <mxGeometry relative="1" as="geometry">
@@ -319,12 +307,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-213" value="39_CCU" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-1130" y="390" width="120" height="50" as="geometry" />
+          <mxGeometry x="-1161.25" y="903.94" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-214" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.382;entryY=1.034;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-213" target="LM8mgtd1PfPeEbZ4qfP5-161" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-860" y="460" as="sourcePoint" />
-            <mxPoint x="-810" y="410" as="targetPoint" />
+            <mxPoint x="-891.25" y="973.94" as="sourcePoint" />
+            <mxPoint x="-841.25" y="923.94" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-220" value="&lt;div&gt;&lt;b&gt;core &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;emission from conventional/non-conventional fuel extraction&lt;br&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
