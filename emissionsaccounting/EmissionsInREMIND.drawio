@@ -204,7 +204,7 @@
           <mxGeometry x="-970" y="234.69" width="230" height="61.25" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-159" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;v_co2capturevalve&lt;/b&gt;&lt;div&gt;&lt;i&gt;valve from co2 capture step if capture capacity dont have the same lifetime??? &lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-1322.25" y="200.59" width="190" height="85.62" as="geometry" />
+          <mxGeometry x="-1330" y="224.44" width="190" height="85.62" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-161" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;b&gt;vm_co2CCUshort&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;emission from short term CCU&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-1140" y="310.06" width="182.5" height="50" as="geometry" />
@@ -233,10 +233,13 @@
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-170" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="70.38" width="20" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-172" target="c_pmkNfR0mzENY8hxApa-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-172" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;vm_emiIndCCS&lt;/b&gt;&lt;div&gt;&lt;i&gt;industry CCS emissions &lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-1562.12" y="99.76" width="150" height="39.87" as="geometry" />
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-173" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.685;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-172" target="LM8mgtd1PfPeEbZ4qfP5-170" edge="1">
+        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-173" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.685;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="c_pmkNfR0mzENY8hxApa-79" target="LM8mgtd1PfPeEbZ4qfP5-170" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-910" y="150" as="sourcePoint" />
             <mxPoint x="-680" y="80" as="targetPoint" />
@@ -245,13 +248,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-175" value="sum over fuel ???" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LM8mgtd1PfPeEbZ4qfP5-173" vertex="1" connectable="0">
-          <mxGeometry x="-0.4126" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-174" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;vm_nonIncineratedPlastics&lt;/b&gt;&lt;div&gt;&lt;i&gt;carbon from non-fossil origin contained in plastics that dont get incinerated /plastic removals&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Verdana&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="-1563.12" y="36.13" width="220" height="54.25" as="geometry" />
+          <mxGeometry x="-1573.12" y="16.130000000000003" width="220" height="54.25" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-176" value="" style="endArrow=none;html=1;rounded=0;exitX=0.999;exitY=0.807;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.41;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-174" target="LM8mgtd1PfPeEbZ4qfP5-170" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -372,8 +370,11 @@
             <mxPoint x="-1390" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-222" target="LM8mgtd1PfPeEbZ4qfP5-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-222" value="37_industry" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="-1723" y="93.88" width="120" height="50" as="geometry" />
+          <mxGeometry x="-1750" y="69.63" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-223" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-222" target="LM8mgtd1PfPeEbZ4qfP5-172" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -708,23 +709,13 @@
             <mxPoint x="-680" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-295" value="&lt;div&gt;sum over&amp;nbsp;&lt;/div&gt;&lt;div&gt;???&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LM8mgtd1PfPeEbZ4qfP5-294" vertex="1" connectable="0">
-          <mxGeometry x="-0.2271" y="-1" relative="1" as="geometry">
-            <mxPoint x="-11" y="19" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-296" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="-690" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-297" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.563;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-302" target="LM8mgtd1PfPeEbZ4qfP5-156" edge="1">
+        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-297" value="" style="endArrow=none;html=1;rounded=0;entryX=0.563;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;endFill=1;startFill=1;startArrow=classic;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-302" target="LM8mgtd1PfPeEbZ4qfP5-156" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-840" y="160" as="sourcePoint" />
             <mxPoint x="-770" y="170" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-307" value="&lt;div&gt;sum over&lt;/div&gt;&lt;div&gt;???&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LM8mgtd1PfPeEbZ4qfP5-297" vertex="1" connectable="0">
-          <mxGeometry x="0.3442" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-303" value="" style="endArrow=none;html=1;rounded=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="c_pmkNfR0mzENY8hxApa-74" target="LM8mgtd1PfPeEbZ4qfP5-302" edge="1">
@@ -745,21 +736,16 @@
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-302" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="-852.5" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-305" value="" style="endArrow=none;html=1;rounded=0;exitX=0.554;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-161" target="LM8mgtd1PfPeEbZ4qfP5-306" edge="1">
+        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-305" value="" style="endArrow=none;html=1;rounded=0;exitX=0.554;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="c_pmkNfR0mzENY8hxApa-89" target="LM8mgtd1PfPeEbZ4qfP5-306" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-890" y="360" as="sourcePoint" />
             <mxPoint x="-1040" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-308" value="&lt;div&gt;sum over&lt;/div&gt;&lt;div&gt;???&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LM8mgtd1PfPeEbZ4qfP5-305" vertex="1" connectable="0">
-          <mxGeometry x="-0.3431" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LM8mgtd1PfPeEbZ4qfP5-306" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="-1050" y="150" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-309" value="" style="endArrow=none;html=1;rounded=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-159" target="LM8mgtd1PfPeEbZ4qfP5-310" edge="1">
+        <mxCell id="LM8mgtd1PfPeEbZ4qfP5-309" value="" style="endArrow=none;html=1;rounded=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="c_pmkNfR0mzENY8hxApa-87" target="LM8mgtd1PfPeEbZ4qfP5-310" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1070" y="360" as="sourcePoint" />
             <mxPoint x="-1206" y="160" as="targetPoint" />
@@ -792,14 +778,44 @@
         <mxCell id="c_pmkNfR0mzENY8hxApa-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.562;entryY=0.704;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="c_pmkNfR0mzENY8hxApa-72" target="LM8mgtd1PfPeEbZ4qfP5-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="c_pmkNfR0mzENY8hxApa-74" value="only ETS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1421.87" y="224.65" width="40" height="37.5" as="geometry" />
+        <mxCell id="c_pmkNfR0mzENY8hxApa-74" value="no sum, select only ETS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1441" y="210" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="c_pmkNfR0mzENY8hxApa-77" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;this is 0 for all nonc02 emission&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1683.12" y="340" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c_pmkNfR0mzENY8hxApa-78" value="&lt;div align=&quot;left&quot;&gt;cement&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;cement_process&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;steel&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;other&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;only co2!&lt;/b&gt; &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1560" y="139.63" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-79" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;sum over all processes (&lt;b&gt;emiInd37_fuel&lt;/b&gt;), only ETS, only co2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1196" y="98.88" width="186" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-82" value="depends on &lt;b&gt;pm_incinerationRate&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1573.12" y="-24.63" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-85" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;same sum,didnt understand, only co2 &lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="186.06" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-88" value="" style="endArrow=none;html=1;rounded=0;exitX=0.612;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-159" target="c_pmkNfR0mzENY8hxApa-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1214" y="224" as="sourcePoint" />
+            <mxPoint x="-1206" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-87" value="no sum, select only ETS, only co2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1280" y="174.62" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-90" value="" style="endArrow=none;html=1;rounded=0;exitX=0.554;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LM8mgtd1PfPeEbZ4qfP5-161" target="c_pmkNfR0mzENY8hxApa-89">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1039" y="311" as="sourcePoint" />
+            <mxPoint x="-1040" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-89" value="no sum, select only ETS, only co2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1108.75" y="214.62" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pmkNfR0mzENY8hxApa-93" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;a sum that I do not understand, only co2&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1174.37" y="50" width="268.75" height="33.38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
